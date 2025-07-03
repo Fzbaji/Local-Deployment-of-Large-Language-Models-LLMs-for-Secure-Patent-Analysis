@@ -10,9 +10,13 @@ L'objectif est de fournir une solution performante, précise et surtout, garanti
 ## Caractéristiques Principales
 
 **Confidentialité Totale :** Traitement des données 100% en local, sans aucune dépendance au cloud, assurant la conformité au RGPD et la protection des secrets industriels.
+
 **Analyse Intelligente :** Utilisation d'une architecture RAG pour des réponses précises et contextualisées basées sur les documents de brevets.
+
+
 **Flexibilité d'Acquisition :** Possibilité d'uploader manuellement des PDF ou de collecter automatiquement des résumés de brevets via les APIs PatentsView et The Lens.
 **Modèles Open-Source :** Support de LLMs locaux comme LLaMA3.2 et Mistral via Ollama.
+
 **Interface Utilisateur Intuitive :** Développé avec Streamlit pour une expérience utilisateur fluide.
 
 ## Architecture (Pipeline & Workflow)
@@ -48,14 +52,17 @@ Le fonctionnement de Patent Bot repose sur un pipeline structuré en plusieurs �
 Nos tests ont démontré que Patent Bot offre un excellent compromis entre performance et confidentialité :
 
 **Qualité des Réponses :** Les modèles locaux (LLaMA3.2, Mistral) fournissent des réponses correctes, pertinentes et fiables, comparables à celles de solutions cloud pour la pertinence contextuelle.
+
 **Rapidité des Réponses :** Les temps de réponse varient de 45 à 70 secondes pour la solution locale, ce qui est très satisfaisant pour un usage interactif compte tenu du traitement entièrement local.
+
 **Sécurité :** L'architecture 100% locale garantit une confidentialité totale des données, un contrôle complet et une conformité RGPD simplifiée, contrairement aux solutions cloud.
 
 ## Comment Utiliser Patent Bot (Guide Rapide)
 
 1.  **Cloner le dépôt :**
     ```bash
-    git clone [Local-Deployment-of-Large-Language-Models-LLMs-for-Secure-Patent-Analysis](https://github.com/Fzbaji/Local-Deployment-of-Large-Language-Models-LLMs-for-Secure-Patent-Analysis.git)
+    git clone 
+    [Local-Deployment-of-Large-Language-Models-LLMs-for-Secure-Patent-Analysis](https://github.com/Fzbaji/Local-Deployment-of-Large-Language-Models-LLMs-for-Secure-Patent-Analysis.git)
     
     ```
 2.  **Installer Ollama et télécharger les modèles :**
