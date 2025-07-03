@@ -55,7 +55,7 @@ Nos tests ont démontré que Patent Bot offre un excellent compromis entre perfo
 
 1.  **Cloner le dépôt :**
     ```bash
-    git clone [Local-Deployment-of-Large-Language-Models-LLMs-for-Secure-Patent-Analysis](https://github.com/Fzbaji/Local-Deployment-of-Large-Language-Models-LLMs-for-Secure-Patent-Analysis)
+    git clone [Local-Deployment-of-Large-Language-Models-LLMs-for-Secure-Patent-Analysis](https://github.com/Fzbaji/Local-Deployment-of-Large-Language-Models-LLMs-for-Secure-Patent-Analysis.git)
     
     ```
 2.  **Installer Ollama et télécharger les modèles :**
